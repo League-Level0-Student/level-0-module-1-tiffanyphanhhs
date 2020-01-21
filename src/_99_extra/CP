@@ -1,0 +1,89 @@
+1. Fill in the blanks
+String favoriteHobby = "programming";
+String numberOfToes = 10;
+String degreesInARightAngle = 90;
+String myAge = 15;
+String Program = "Java";
+double number = 3.14159;
+
+2. Initialize these variables...
+    String whatIWantToBeWhenIGrowUp="Game Designer";
+    int facebookFriends = 45;
+    String myBirthday = "06/16";
+    int sidesInATriangle = 3;
+    
+3. Declare and initialize variables for...
+    ­ what you got for your birthday
+    String whatIGotForMyBirthday  = "Gift Card";
+    ­ the last meal you ate
+    String lastMeal = "Rice and Pork";
+    ­ what time you go to bed
+    String timeYouGoToBed = "11:00";
+    ­ how many Robot programs you have written
+    int programs = 10;
+    
+    1. Complete the for loop below so that it prints out the numbers 1­10.
+for(int i = 1; i < 10; i++ )
+{ 
+	JOptionPane.showMessageDialog(null,+i);
+}
+
+2. Complete the for loop below so that it counts down and prints out 75 to 50.
+for(int i = 0; i < 75 ; i--)
+{ 
+	JOptionPane.showMessageDialog(null,+i);
+}
+
+3. Describe briefly what each part of the for loop does: 
+for( a ; b ; c )
+{               } 
+a) Determine what's variable is
+b) Number of loops 
+c) Decrease or Increase of what's inside the loop 
+
+   1. Declare a string variable and initialize it to “yes”. If the string is equal to yes, print “happy” otherwise print
+“sad”. Then print "Wednesday".
+			 String string = "yes";
+			 if (string.equals("yes") ){
+			JOptionPane.showMessageDialog(null, "happy");
+		}
+
+		else{
+			JOptionPane.showMessageDialog(null, "sad");
+		}
+	JOptionPane.showMessageDialog(null, "Wednesday");
+	
+	What happense if you set the string variable to "no"? 
+	Then, it'll print sad and then, Wednesday.
+	
+	2. Declare an int variable to hold your age and initialize its value. If you are under 20, print “It’s so great being
+young”, otherwise print “Don’t you wish you were young!”
+	int age = 15;
+	 if (age == 15 ){
+			JOptionPane.showMessageDialog(null, "It's so great being young");
+		}
+
+		else{
+			JOptionPane.showMessageDialog(null, "Don't you wish you were young!");
+		}
+	3. Make an input pop­up to ask the user which animal they like. If the user types “dog”, print “Dogs go woof”,
+otherwise if they type “cat”, print “Cats go meow” ....and so on with other animals. If you do not have code for
+the animal they type, print “I don’t know that animal.
+
+	String animal = JOptionPane.showInputDialog(null,"What is their favorite animal?");
+	 if (String.equals ("dog")){
+			JOptionPane.showMessageDialog(null, "Dogs go woof");
+		}
+
+		else{
+			 if (String.equals ("cat")){
+			JOptionPane.showMessageDialog(null, "Cats go meow");
+		}
+
+		else{
+			JOptionPane.showMessageDialog(null, "I don't know that animal");
+		}
+		}
+
+
+	
